@@ -18,11 +18,11 @@ int r;
 r = i * j;
 if (r < 10)
 {
-if (j == 0)
+if (j == 0 && n != 0)
 {
 printf("%d,", r);
 }
-else if (j == n)
+else if (j == n || n == 0)
 {
 printf("   %d", r);
 }
@@ -33,11 +33,11 @@ printf("   %d,", r);
 }
 else if (r >= 10 && r < 100)
 {
-if (j == 0)
+if (j == 0 && n != 0)
 {
 printf("%d,", r);
 }
-else if (j == n)
+else if (j == n || n == 0)
 {
 printf("  %d", r);
 }
@@ -48,11 +48,11 @@ printf("  %d,", r);
 }
 else
 {
-if (j == 0)
+if (j == 0 && n != 0)
 {
 printf("%d,", r);
 }
-else if (j == n)
+else if (j == n || n == 0)
 {
 printf(" %d", r);
 }
