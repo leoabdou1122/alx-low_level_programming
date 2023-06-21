@@ -13,15 +13,36 @@ for (j = 0; j <= 9; j++)
 {
 int d;
 d = i * j;
-if (d < 10)
+if (j == 0)
 {
-printf("%d,  ", d);
+printf("%d,", d);
 }
 else
 {
-printf("%d, ", d);
+if (d < 10)
+{
+if (j == 9)
+{
+printf("  %d", d);
+}
+else
+{
+printf("  %d,", d);
+}
+}
+else
+{
+if (j == 9)
+{
+printf(" %d", d);
+}
+else
+{
+printf(" %d,", d);
 }
 }
 printf("\n");
+}
+}
 }
 }
