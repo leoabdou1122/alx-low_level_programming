@@ -41,8 +41,8 @@ else
 printf(" %d,", d);
 }
 }
+}
+}
 printf("\n");
-}
-}
 }
 }
