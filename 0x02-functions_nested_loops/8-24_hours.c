@@ -15,19 +15,19 @@ for (j = 0; j <= 59; j++)
 {
 if (i < 10 && j < 10)
 {
-printf("0%d:0%d", i, j);
+printf("0%d:0%d\n", i, j);
 }
 else if (i < 10)
 {
-printf("0%d:%d", i, j);
+printf("0%d:%d\n", i, j);
 }
 else if (j < 10)
 {
-printf("%d:0%d", i, j);
+printf("%d:0%d\n", i, j);
 }
 else
 {
-printf("%d:%d", i, j);
+printf("%d:%d\n", i, j);
 }
 }
 }
