@@ -22,8 +22,8 @@ printf("%c", str[i]);
 }
 else
 {
-s = (f - 1) / 2; 
-for (i = s; i < f; i++)
+s = (f - 1) / 2;
+for (i = s - 1; i < f; i++)
 {
 printf("%c", str[i]);
 }
