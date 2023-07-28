@@ -1,0 +1,21 @@
+#include "main.h"
+#include <stdio.h>
+#include <string.h>
+
+/**
+ *puts_half - a function that print half string.
+ *@str: the string
+*/
+void puts_half(char *str)
+{
+int f;
+int s;
+int i;
+f = strlen(str);
+s = f / 2;
+for (i = s - 1; i < f; i++)
+{
+printf("%c", str[i]);
+}
+printf("\n");
+}
